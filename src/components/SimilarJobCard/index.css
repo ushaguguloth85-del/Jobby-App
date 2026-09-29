@@ -1,0 +1,36 @@
+.similar-job-card {
+  background-color: #272727;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.similar-job-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.similar-title-container {
+  display: flex;
+  gap: 15px;
+}
+
+.similar-logo {
+  width: 55px;
+  height: 55px;
+}
+
+.similar-job-card p {
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.similar-info {
+  display: flex;
+  gap: 20px;
+}
+
+.similar-info span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

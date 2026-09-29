@@ -1,0 +1,150 @@
+.details-page-container {
+  min-height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.job-details-page {
+  padding: 40px 8%;
+}
+
+.job-details-card {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.job-heading {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.details-logo {
+  width: 80px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.star-icon {
+  color: #fbbf24;
+}
+
+.details-location-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.details-location-container div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.details-location-container p {
+  margin-left: auto;
+}
+
+.description-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description-header a {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.details-description {
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.skill-item img {
+  width: 55px;
+  height: 55px;
+}
+
+.life-at-company {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.life-at-company > div {
+  flex: 1;
+}
+
+.life-at-company p {
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.life-at-company img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.similar-heading {
+  margin-top: 40px;
+}
+
+.similar-jobs-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .job-details-page {
+    padding: 20px;
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .similar-jobs-list {
+    grid-template-columns: 1fr;
+  }
+
+  .life-at-company {
+    display: block;
+  }
+
+  .life-at-company img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .details-location-container {
+    gap: 15px;
+  }
+
+  .details-location-container p {
+    margin-left: 0;
+  }
+}
